@@ -16,7 +16,7 @@ data:
   dataset_name: 'n2h'
   dataset_type: 'custom_aligned'
   dataset_config:
-    dataset_path: '/kaggle/working/BBDM/n2h'
+    dataset_path: '/kaggle/input/n2h-bbdms/n2h'
     image_size: 256
     channels: 3
     to_normal: True
