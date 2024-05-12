@@ -17,7 +17,7 @@ data:
   dataset_type: 'custom_aligned'
   dataset_config:
     dataset_path: '/kaggle/input/n2h-bbdms/n2h'
-    image_size: 224
+    image_size: 196
     channels: 3
     to_normal: True
     flip: False
@@ -79,7 +79,7 @@ model:
       max_var: 1.0 # maximum variance
 
       UNetParams:
-        image_size: 224
+        image_size: 196
         in_channels: 6
         model_channels: 128
         out_channels: 3
